@@ -1,16 +1,19 @@
 
 import './App.css'
-import { useState } from 'react'  
+import { useEffect, useState } from 'react'  
 
 function App() {
 const[count,setcount]= useState(0);
 
 const incrcount=()=>{
-  //setcount(count + 1);//simple to increse one count 
-  setcount(prevcount => prevcount + 1); // asked in the interview to increase value multiple times
-  setcount(prevcount => prevcount + 1);
-  setcount(prevcount => prevcount + 1);
-  setcount(prevcount => prevcount + 1);
+  setcount(count + 1);//simple to increse one count 
+  setcount(count + 1);
+  setcount(count + 1);
+  setcount(count + 1);
+  // setcount(prevcount => prevcount + 1); // asked in the interview to increase value multiple times
+  // setcount(prevcount => prevcount + 1);
+  // setcount(prevcount => prevcount + 1);
+  // setcount(prevcount => prevcount + 1);
 
 }
  const decrese=()=>{

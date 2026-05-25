@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 
 function App() {
   
@@ -11,7 +11,7 @@ function App() {
     <div className='w-full h-screen duration-200'
     style={{backgroundColor:color}}
     >
-      <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2'> 
+      <div className='fixed flex flex-wrap justify-center bottom-159 inset-x-0 px-2'> 
         <div className='flex flex-wrap justify-center shadow-lg gap-2 bg-white px-3 py-3 rounded-2xl'>
              <button
              onClick={()=>setcolor("red")}
